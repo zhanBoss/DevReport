@@ -65,7 +65,7 @@
 
 ### 下载安装包
 
-前往 [Releases](https://github.com/YOUR_USERNAME/DevReport/releases) 页面下载最新版本：
+前往 [Releases](https://github.com/zhanBoss/DevReport/releases) 页面下载最新版本：
 
 - **macOS (Apple Silicon)**: `DevReport_1.0.0_aarch64.dmg`
 - **macOS (Intel)**: `DevReport_1.0.0_x64.dmg`
@@ -91,7 +91,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/YOUR_USERNAME/DevReport.git
+git clone https://github.com/zhanBoss/DevReport.git
 cd DevReport
 
 # 安装依赖
@@ -192,8 +192,7 @@ DevReport/
 
 如有问题或建议，欢迎通过以下方式联系：
 
-- 提交 [Issue](https://github.com/YOUR_USERNAME/DevReport/issues)
-- 发送邮件至：your-email@example.com
+- 提交 [Issue](https://github.com/zhanBoss/DevReport/issues)
 
 ---
 

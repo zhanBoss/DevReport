@@ -65,7 +65,7 @@ An intelligent work report generator based on Git commit history, supporting dai
 
 ### Download Installer
 
-Visit the [Releases](https://github.com/YOUR_USERNAME/DevReport/releases) page to download the latest version:
+Visit the [Releases](https://github.com/zhanBoss/DevReport/releases) page to download the latest version:
 
 - **macOS (Apple Silicon)**: `DevReport_1.0.0_aarch64.dmg`
 - **macOS (Intel)**: `DevReport_1.0.0_x64.dmg`
@@ -91,7 +91,7 @@ Visit the [Releases](https://github.com/YOUR_USERNAME/DevReport/releases) page t
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/DevReport.git
+git clone https://github.com/zhanBoss/DevReport.git
 cd DevReport
 
 # Install dependencies
@@ -192,8 +192,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions or suggestions, please:
 
-- Submit an [Issue](https://github.com/YOUR_USERNAME/DevReport/issues)
-- Email: your-email@example.com
+- Submit an [Issue](https://github.com/zhanBoss/DevReport/issues)
 
 ---
 
