@@ -1,0 +1,41 @@
+{
+  "name": "dev-report",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "copy-release": "mkdir -p release && cp -r src-tauri/target/release/bundle/dmg/*.dmg release/ 2>/dev/null || cp -r src-tauri/target/release/bundle/macos/*.app release/ 2>/dev/null || true",
+    "dev:web": "vite",
+    "build:web": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-clipboard-manager": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@tauri-apps/plugin-fs": "^2",
+    "@tauri-apps/plugin-global-shortcut": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "@tauri-apps/plugin-shell": "^2",
+    "antd": "^6.3.1",
+    "dayjs": "^1.11.19",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  }
+}
