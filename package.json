@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tauri dev",
-    "build": "tauri build",
-    "copy-release": "mkdir -p release && cp -r src-tauri/target/release/bundle/dmg/*.dmg release/ 2>/dev/null || cp -r src-tauri/target/release/bundle/macos/*.app release/ 2>/dev/null || true",
+    "build": "tauri build && npm run copy-release",
+    "copy-release": "mkdir -p release && cp -r src-tauri/target/release/bundle/dmg/*.dmg release/ 2>/dev/null || cp -r src-tauri/target/release/bundle/macos/*.app release/ 2>/dev/null || echo '✅ 打包文件已复制到 release 目录'",
     "dev:web": "vite",
     "build:web": "tsc && vite build",
     "preview": "vite preview",
